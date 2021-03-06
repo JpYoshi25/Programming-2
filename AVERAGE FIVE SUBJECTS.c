@@ -18,7 +18,7 @@ int main()
     sum= Math+Science+Filipino+English+PE;
     average=sum/5;
     
-    printf("Total: %f", sum);
+    printf("Total: %.2f", sum);
     printf("\nThe average is:  %.2f", average);
     return 0;
 }
