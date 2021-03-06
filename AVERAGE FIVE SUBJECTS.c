@@ -4,7 +4,7 @@ int main()
     float Math,Science,Filipino,English,PE,sum,average;
 
     printf("Enter the Grades");
-    printf("Math:");
+    printf("\nMath:");
     scanf("%f",&Math);
     printf("Science:");
     scanf("%f",&Science);
