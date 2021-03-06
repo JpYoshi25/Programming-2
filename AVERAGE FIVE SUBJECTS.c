@@ -1,21 +1,24 @@
 #include <stdio.h>
 int main()
 {
-    int Math,Science,Filipino,English,PE,sum,average;
+    float Math,Science,Filipino,English,PE,sum,average;
 
+    printf("Enter the Grades");
     printf("Math:");
-    scanf("%d",&Math);
+    scanf("%f",&Math);
     printf("Science:");
-    scanf("%d",&Science);
+    scanf("%f",&Science);
     printf("Filipino:");
-    scanf("%d",&Filipino);
+    scanf("%f",&Filipino);
     printf("English:");
-    scanf("%d",&English);
+    scanf("%f",&English);
     printf("PE:");
-    scanf("%d",&PE);
+    scanf("%f",&PE);
 
     sum= Math+Science+Filipino+English+PE;
     average=sum/5;
-
-    printf("The average is %d", average);
+    
+    printf("Total: %f", sum);
+    printf("\nThe average is:  %.2f", average);
+    return 0;
 }
