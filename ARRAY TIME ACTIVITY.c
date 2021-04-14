@@ -24,7 +24,7 @@ int main()
     {
         if(pin==pass[0][0])
         {
-            printf("\nYou have successfully logged in");
+            printf("\nYou have successfully logged in ID:%d",idnum);
         }
         else
         printf("\nInvalid ID/PIN!");
@@ -33,7 +33,7 @@ int main()
     {
         if (pin==pass[0][1])
         {
-            printf("\nYou have successfully logged in");
+            printf("\nYou have successfully logged in ID:%d",idnum);
         }
         else
         printf("\nInvalid ID/PIN!");
@@ -42,7 +42,7 @@ int main()
     {
         if (pin==pass[1][1])
         {
-            printf("\nYou have successfully logged in");
+            printf("\nYou have successfully logged in ID:%d",idnum);
         }
         else
         printf("\nInvalid ID/PIN!");
