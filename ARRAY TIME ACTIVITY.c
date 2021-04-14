@@ -17,7 +17,7 @@ int main()
 
     if (idnum==account[0][0])
     {
-        if(pin==pass[0][1])
+        if(pin==account[0][1])
         {
             printf("\nYou have successfully logged in\n\n ID:%d",idnum);
         }
@@ -26,7 +26,7 @@ int main()
     }
     else if (idnum==account[1][0])
     {
-        if (pin==pass[1][1])
+        if (pin==account[1][1])
         {
             printf("\nYou have successfully logged in\n\n ID:%d",idnum);
         }
@@ -35,7 +35,7 @@ int main()
     }
     else if (idnum==account[2][0])
     {
-        if (pin==pass[2][2])
+        if (pin==account[2][2])
         {
             printf("\nYou have successfully logged in\n\n ID:%d",idnum);
         }
